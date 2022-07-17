@@ -27,17 +27,18 @@ Sample Payload to create Promotions\
  }\
 
  \
- 3. endpoint : bas_url + /getenrollusers/\
- Provide all the enrolled plans on Get request, and enroll a user in plan on post request.\
- \
- Sample Payload to enroll in plan\
- {\
- "userId" : 4, -> int\
- "planId" : 1, ->int \
- "selectedAmount":100000, ->int\
- "selectedTenure":365, ->int\
- "depositedAmount":10  ->int\
- }\
- 
+
+3. endpoint : bas_url + /getenrollusers/\
+Provide all the enrolled plans on Get request, and enroll a user in plan on post request.\
+\
+Sample Payload to enroll in plan\
+{\
+"userId" : 4, -> int\
+"planId" : 1, ->int \
+"selectedAmount":100000, ->int\
+"selectedTenure":365, ->int\
+"depositedAmount":10  ->int\
+}\
+
  
  
