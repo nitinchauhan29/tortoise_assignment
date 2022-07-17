@@ -1,6 +1,6 @@
 # tortoise_assignment
 
-1. endpoint : base_url + /getcreateplan/
+1. endpoint : base_url + /getcreateplan/ \
 Provide all the available plans to the user on a Get request, and create a plan in db on post request.
 
 Sample payload to create plan
